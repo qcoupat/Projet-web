@@ -125,12 +125,24 @@ span{
     .navbar a {
         font-size: 12px;
     }
+    .navbar a:hover {
+        height: 20px;
+      }
+      #langages{
+        height: 40px;
+      }
+      #dev{
+        height: 40px;
+      }
 }
 @media (max-width:940px){
     .navbar a {
         font-size: 8px;
         padding: 30px 36px;
     }
+    .navbar a:hover {
+        height: 32px;
+      }
 }
 /*responsive texte langages*/
 @media (max-width:1430px){
