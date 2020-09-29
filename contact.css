@@ -1,0 +1,81 @@
+h1{
+    padding-left: 10%;    
+    font-family: 'Montserrat' sans-serif;
+    font-size: 400%;
+    font-weight: bolder;
+}
+
+section{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.contact{
+    background: rgba(246, 137, 4, 0.5);
+    font-family:'Montserrat' sans-serif;
+    padding: 4%;
+    font-weight: bolder;
+}
+
+
+.formulaire{
+    background-color: rgba(230, 230, 230, 0.5);
+    font-weight: bold;
+    padding: 4%;
+    font-family: 'Montserrat' sans-serif;
+}
+
+input{
+    width: 400px;
+}
+
+#votremessage{
+    height: 120px;
+}
+
+button{
+    color: white;
+    background: black;
+    font-family: 'Montserrat' sans-serif;
+    font-weight: bold;
+    border-style: none;
+    display: block;
+    margin: auto;
+    width: 120px;
+    height: 50px;
+}
+
+h2{
+    border-bottom-style: inset;
+    border-color: #e6e6e6; 
+    margin: auto;
+    width: 70%;
+}
+
+.Suiveznous{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    height: 100vh;
+
+}
+
+h3{
+    font-size: 250%;
+    font-weight: bolder;
+    font-family: 'Montserrat' sans-serif;
+    color: black;  
+}
+
+.reseaux{
+    font-weight: bold;
+    font-family: Montserrat;
+    color: black;
+}
+
+iframe {
+   border: 10px solid rgba(246, 137, 4, 0.5);
+}
+
+
