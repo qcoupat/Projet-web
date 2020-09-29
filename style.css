@@ -1,6 +1,7 @@
 body{
     margin: 0px;
     padding: 0px;
+    font-family: 'Montserrat', sans-serif
 }
 html, body{
     height: 100%;
@@ -60,9 +61,6 @@ li{
   #dev{
     padding: 26px 40px;
   }
-body{
-    font-family: 'Montserrat', sans-serif
-}
 .fab{
     font-size: 30px;
 }
