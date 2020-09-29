@@ -80,6 +80,7 @@ iframe {
 body{
     margin: 0px;
     padding: 0px;
+    font-family: 'Montserrat', sans-serif
 }
 html, body{
     height: 100%;
@@ -124,9 +125,6 @@ padding-right: 5px;
   #dev{
     padding: 26px 40px;
   }
-body{
-    font-family: 'Montserrat', sans-serif
-}
 footer{
     background-color: #333;
     color: #ffff;
