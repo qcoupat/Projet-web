@@ -35,7 +35,7 @@ li{
 }
   
   /* Style the links inside the navigation bar */
-  .navbar li {
+  .navbar a {
     display: flex;
     float: right;
     color: #f2f2f2;
@@ -46,11 +46,13 @@ li{
   }
   
   /* Change the color of links on hover */
-  .navbar li:hover {
+  .navbar a:hover {
     background-color: #ddd;
     color: black;
   }
-  
+  .design-logo{
+      float:left;
+  }
   #logo{
       float: left;
       margin: 10px;
