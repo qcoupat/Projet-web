@@ -24,6 +24,9 @@ padding-right: 5px;
     background-color: #E6E6E6;
     display: flex;
 }
+li{
+    list-style: none;
+}
 /* Add a black background color to the top navigation */
 .navbar {
     background-color: #333;
