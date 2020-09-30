@@ -359,14 +359,14 @@ h1{
 }
 
 .boutonmid{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 200px;
-    height: 80px;
     background: rgba(196, 196, 196, 1);
     font-size: 30px;
-    border: 400px;
     border-radius: 50px;
     font-weight: bold;
-    ;
 }
 
 .Midpage{
@@ -502,4 +502,55 @@ padding-bottom: 50px;
 .Boutonhero:hover{
     background-color: #ffff;
     color: black;
+}
+@media (max-width:376px){
+    .before-header{
+        width: 100%;
+    }
+    .h2hero{
+        font-size: 35px;
+    }
+    .sous-titre-index{
+        font-size: 21px;
+    }
+    .Boutonhero{
+        font-size:20px;
+        width:194px;
+        height:51px;
+    }
+    .titre-index{
+        font-size: 19px;
+        padding-right: 75px;
+        height: 93px;
+    }
+    .boutonmid{
+        width: 115px;
+        height: 29px;
+        font-size: 14px;
+        margin-right: 32px;
+        margin-top: 33px;
+    }
+    .mainhead{
+        margin-top: -64px;
+    }
+    .Midpage{
+        padding-top: 45px;
+        align-items: end;
+    }
+    .titrebarre{
+        font-size: 17px;
+    }
+    #hrquentin{
+        width: 77%;
+        margin-top: 20px;
+    }
+    .titreavecbarre{
+        padding-bottom: 0px;
+    }
+    .Pswift{
+        flex-direction: column;
+    }
+    .blocbas{
+        flex-direction: column;
+    }
 }
