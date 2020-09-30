@@ -1,0 +1,165 @@
+h1{
+    padding-left: 10%;    
+    font-family: 'Montserrat' sans-serif;
+    font-size: 400%;
+    font-weight: bolder;
+}
+
+section{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.contact{
+    background: rgba(246, 137, 4, 0.5);
+    font-family:'Montserrat' sans-serif;
+    padding: 4%;
+    font-weight: bolder;
+}
+
+
+.formulaire{
+    background-color: rgba(230, 230, 230, 0.5);
+    font-weight: bold;
+    padding: 4%;
+    font-family: 'Montserrat' sans-serif;
+}
+
+input{
+    width: 400px;
+}
+
+#votremessage{
+    height: 120px;
+}
+
+button{
+    color: white;
+    background: black;
+    font-family: 'Montserrat' sans-serif;
+    font-weight: bold;
+    border-style: none;
+    display: block;
+    margin: auto;
+    width: 120px;
+    height: 50px;
+}
+
+h2{
+    border-bottom-style: inset;
+    border-color: #e6e6e6; 
+    margin: auto;
+    width: 70%;
+}
+
+.Suiveznous{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    height: 100vh;
+
+}
+
+h3{
+    font-size: 250%;
+    font-weight: bolder;
+    font-family: 'Montserrat' sans-serif;
+    color: black;  
+}
+
+.reseaux{
+    font-weight: bold;
+    font-family: Montserrat;
+    color: black;
+}
+
+iframe {
+   border: 10px solid rgba(246, 137, 4, 0.5);
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Montserrat', sans-serif
+}
+html, body{
+    height: 100%;
+}
+#photo-background{
+    margin-bottom: 50px;
+    width: 100%;
+}
+.reseauxsociaux{
+margin-left: auto;
+padding-top: 5px;
+padding-bottom: 5px;
+padding-right: 5px;
+}
+.before-header{
+    background-color: #E6E6E6;
+    display: flex;
+}
+  /* Style the links inside the navigation bar */
+  .navbar a {
+    display: flex;
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 36px 40px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .navbar a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  #logo{
+      float: left;
+      margin: 10px;
+  }
+  #langages{
+    padding: 26px 40px;
+  }
+  #dev{
+    padding: 26px 40px;
+  }
+footer{
+    background-color: #333;
+    color: #ffff;
+}
+
+hr{
+    margin: 0px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+.contact{
+    margin-left: 40px;
+    padding-bottom: 30px;
+}
+.formation{
+    margin-left: auto;
+    margin-right: 40px;
+}
+.container-footer{
+    display: flex;
+    width: 100%;
+}
+.after-footer{
+padding: 20px;
+width: 100%;
+text-align: center;
+}
+.reseauxsociaux-footer{
+    text-align: center;
+}
+.fas{
+    font-size: 30px;
+    float: left;
+    margin-right: 10px;
+}
+span{
+    display: flex;
+}

@@ -254,32 +254,226 @@ iframe {
 }
 /* CSS NASSIM - Page Developpeur*/
 .logodev{
-    position: Flex; 
     width: 100%;
-    order: 1;
 }
-
-.bloc1{
+.ban1{
+    padding-top: 2%;
     display: flex;
     flex-direction: column;
-    order: 2;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.h1n{
+    padding: 2%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    -webkit-text-stroke: 1px black;
+    background-color: #F68904;
+}
+ 
+.texte1{
+    display: flex;
+    font-weight: normal;
+    font-size: 22px;
+    padding-left: 5%;
+}
+
+.ban2{
+    padding-top: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+    
+.h2n{
+    padding: 2%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 200%;
+    background-color: #F68904;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    -webkit-text-stroke: 1px black;
+
+}
+
+.texte2{
+    display: flex;
+    font-weight: normal;
+    font-size: 22px;
+    padding-left: 5%;
+}
+
+.ban3{
+    padding-top: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+    
+.h3n{
+    padding: 2%;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 200%;
+    align-items: center;
+    background-color: #F68904;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    -webkit-text-stroke: 1px black;     
+}
+
+.texte3{
+    display: flex;
+    font-weight: normal;
+    font-size: 22px;
+    padding-left: 5%;
+
+}
+
+.ban4{
+    padding-top: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.h4n{
+    padding: 2%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 200%;
+    background-color: #F68904;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    -webkit-text-stroke: 1px black;     
+}
+
+.texte4{
+    display: flex;
+    font-weight: normal;
+    font-size: 22px;
+    padding-left: 5%;
+}
+
+.ban5{
+    padding-top: 2%;
+    display: flex;
+    flex-direction: column;
+}
+
+.h5n{
+    padding: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 250%;
+    background-color: #F68904;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    -webkit-text-stroke: 1px black;
+                
+}
+
+.h6n{
+
+    padding-left: 5%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 200%;
+    color:black;
+
+}
+
+.texte6{
+    padding-right: 5% ;
+    display: flex;
+    font-weight: normal;
+    font-size: 22px;
+    padding-left: 5%;
+}
+
+.H7{
+    padding-left: 5%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 200%;
+    color:black;
+}
+
+.texte7{
+    padding-right: 5% ;
+    display: flex;
+    font-weight: normal;
+    font-size: 22px;
+    padding-left: 5%;
     
 }
 
-.ban1{
-    background-color:  #F68904;
-    margin-right: 60%;
+.H8{
+    padding-left: 5%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 200%;
+    color:black;
 }
 
-h1{
-    padding-left: 15%;
-    font-size: 28px ;
+.texte8{
+    padding-right: 5% ;
+    display: flex;
+    font-weight: normal;
+    font-size: 22px;
+    padding-left: 5%;
 }
 
-.texte1{
-    padding-top: 2%;
-    padding-left: 8%;
+.H9{
+    padding-left: 5%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 200%;
+    color:black;
 }
+
+.texte9{
+    padding-right: 5% ;
+    display: flex;
+    font-weight: normal;
+    font-size: 22px;
+    padding-left: 5%;
+
+}
+
+.H10{
+    padding-left: 5%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 200%;
+    color:black;
+      
+}
+
+.texte10{
+    padding-right: 5% ;
+    display: flex;
+    font-weight: normal;
+    font-size: 22px;
+    padding-left: 5%;
+}
+
 
 /* CSS QUENTIN CA - Page Index*/
 
@@ -502,4 +696,357 @@ padding-bottom: 50px;
 .Boutonhero:hover{
     background-color: #ffff;
     color: black;
+}
+
+/* CSS AYOUB - Page Contact*/
+
+h1{
+    padding-left: 10%;    
+    font-family: 'Montserrat' sans-serif;
+    font-size: 400%;
+    font-weight: bolder;
+}
+
+section{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.contact-contact{
+    background: rgba(246, 137, 4, 0.5);
+    font-family:'Montserrat' sans-serif;
+    padding: 4%;
+    font-weight: bolder;
+}
+
+
+.formulaire{
+    background-color: rgba(230, 230, 230, 0.5);
+    font-weight: bold;
+    padding: 4%;
+    font-family: 'Montserrat' sans-serif;
+}
+
+input{
+    width: 400px;
+}
+
+#votremessage{
+    height: 120px;
+}
+
+button{
+    color: white;
+    background: black;
+    font-family: 'Montserrat' sans-serif;
+    font-weight: bold;
+    border-style: none;
+    display: block;
+    margin: auto;
+    width: 120px;
+    height: 50px;
+}
+
+.h2-htcss{
+    border-color: #e6e6e6; 
+    margin: auto;
+    width: 70%;
+}
+
+.Suiveznous{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    height: 100vh;
+
+}
+
+h3{
+    font-size: 250%;
+    font-weight: bolder;
+}
+
+.reseaux{
+    font-weight: bold;
+    font-family: Montserrat;
+    color: black;
+}
+
+iframe {
+   border: 10px solid rgba(246, 137, 4, 0.5);
+}
+
+/* CSS QUENTIN CA - Page Index*/
+
+ /* barre des RS */
+ .barreRS{
+    background-color:#E6E6E6 ;
+    display: flex;
+    justify-content: flex-end;
+ }
+.metier{
+    text-decoration: none;
+    color: #C4C4C4;
+}
+
+.langage{
+    text-decoration: none;
+    color: #C4C4C4;
+}
+.boutonbar{
+    width: 100%;
+    justify-content: center;
+}
+/* HERO */
+
+.hero{
+    width: 100%;
+    height: 653px;
+    background-image:url("photos/raw.jpg");
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.h2hero{
+    font-size: 64px;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.sous-titre-index{
+    font-size: 36px;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+
+.mainhead{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 200px;
+}
+
+.Boutonhero{
+    background: rgba(246, 137, 4, 1);
+    font-size: 50px;
+    border-radius: 50px;
+    color: white;
+    border: 400px;
+    width: 384px;
+    height: 93px;
+}
+
+/* Milieu de page */
+
+.titre-index{
+    display: flex;
+    width: 790px;
+    height: 210px;
+    font-size: 72px;
+    font-weight: bold;
+    text-align: center;
+    padding-right: 300px;
+    
+}
+
+.boutonmid{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    background: rgba(196, 196, 196, 1);
+    font-size: 30px;
+    border-radius: 50px;
+    font-weight: bold;
+}
+
+.Midpage{
+display: flex;
+align-items: center;
+padding-top: 120px;
+padding-bottom: 50px;
+}
+
+.titrebarre{
+    padding-left: 33px;
+    width: 330px;
+    height: 66px;
+    text-align: center;
+    margin: 0px;
+    font-size: 36px;
+}
+
+.titreavecbarre{
+    display: flex;
+    height: 120px;
+    margin: 0px;
+    padding-bottom: 100px;
+}
+
+#hrquentin{
+    size: "3px";
+   width: 130ch;
+   height: 3px;
+   border: 0px;
+   color: black;
+   background-color: black;
+   margin-top: 35px;
+   margin-left: 2vw;
+}
+
+/* Bas de page */
+
+/* premier bloc de paragraphe */
+
+.fa-swift{
+    display: flex;
+  color: black;
+  font-size: 50px;
+  
+}
+
+.titreswift{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    background-color:#F68904 ;
+    padding: 15px;
+    padding-right: 0px;
+    border: 0;
+
+}
+
+.Swift{
+    display: flex;
+}
+
+.Pswift{
+    display: flex;
+    align-items: center;
+    padding-bottom: 0;
+}
+
+.logohtmlcss{
+    display: flex;
+    width: 122px;
+    height: 79px;
+}
+
+.titrehtmlcss{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    block-size: 160.444px;
+    background-color: #EDEDED;
+    padding-left: 15px;
+    padding-bottom: 8.4px;
+}
+
+#swiftlogo{
+    display: flex;
+}
+
+#blochtmlcss{
+    display: flex;
+}
+
+/* deuxieme bloc de paragraphe */
+
+.fa-python{
+    font-size: 50px;
+}
+
+.hautpython{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    background-color:#F68904 ;
+    border: 0;
+    padding-left: 12px;
+}
+
+.hautjavascript{
+   display: flex;
+   flex: 1;
+   flex-direction: column;
+   background-color: #EDEDED;
+   padding-left: 13px;
+}
+
+.fa-js-square{
+    font-size: 50px;
+}
+
+.blocbas{
+    display: flex;
+}
+
+.titrepython{
+    display: flex;
+    padding-left: 15px;
+}
+
+.titrejavascript{
+    display: flex;
+}
+
+.Boutonhero:hover{
+    background-color: #ffff;
+    color: black;
+}
+@media (max-width:376px){
+    .before-header{
+        width: 100%;
+    }
+    .h2hero{
+        font-size: 35px;
+    }
+    .sous-titre-index{
+        font-size: 21px;
+    }
+    .Boutonhero{
+        font-size:20px;
+        width:194px;
+        height:51px;
+    }
+    .titre-index{
+        font-size: 19px;
+        padding-right: 75px;
+        height: 93px;
+    }
+    .boutonmid{
+        width: 115px;
+        height: 29px;
+        font-size: 14px;
+        margin-right: 32px;
+        margin-top: 33px;
+    }
+    .mainhead{
+        margin-top: -64px;
+    }
+    .Midpage{
+        padding-top: 45px;
+        align-items: end;
+    }
+    .titrebarre{
+        font-size: 17px;
+    }
+    #hrquentin{
+        width: 77%;
+        margin-top: 20px;
+    }
+    .titreavecbarre{
+        padding-bottom: 0px;
+    }
+    .Pswift{
+        flex-direction: column;
+    }
+    .blocbas{
+        flex-direction: column;
+    }
 }
