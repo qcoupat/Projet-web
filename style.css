@@ -109,7 +109,6 @@ hr{
     width: 100%;
 }
 .after-footer{
-padding: 20px;
 width: 100%;
 text-align: center;
 }
@@ -537,6 +536,7 @@ iframe {
     border: 400px;
     width: 384px;
     height: 93px;
+    cursor: pointer;
 }
 
 /* Milieu de page */
@@ -560,7 +560,11 @@ iframe {
     border: 400px;
     border-radius: 50px;
     font-weight: bold;
+    cursor: pointer;
     ;
+}
+.boutonmid:hover{
+    background-color: black;
 }
 
 .Midpage{
@@ -1049,4 +1053,22 @@ padding-bottom: 50px;
     .blocbas{
         flex-direction: column;
     }
+    .container-footer{
+        flex-direction: column;
+    }
+    .formation{
+        margin-left: 40px;
+        font-size: 13px;
+    }
+    .contact{
+        font-size: 13px;
+    }
+    .after-footer{
+        padding: 0px;
+    }
+    span{
+        width: 280px;
+       margin-right: 0px; 
+    }
+
 }
