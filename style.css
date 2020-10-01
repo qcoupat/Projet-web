@@ -952,7 +952,7 @@ padding-bottom: 50px;
     display: flex;
     flex: 1;
     flex-direction: column;
-    block-size: 387.38px;
+    /*block-size: 387.38px;*/
     background-color: #EDEDED;
     padding-left: 15px;
     padding-bottom: 8.4px;
